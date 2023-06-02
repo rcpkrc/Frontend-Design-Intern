@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 500%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+img{
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+}
+.ilkDiv{
+    display: flex;
+    width: 1728px;
+    height: 1001px;
+    justify-content: center;
+    margin: 0 auto;
+}
+p{
+    font-size: 30px;
+}
+.ilkveİkinciImg{
+    width: 100%;
+    height: 100%;
+}
+.ikinciDiv{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 219px;
+    width: 1522px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.vHvW100Class{
+    height: 100vh;
+    width: 100vw;      
+}
+.ikinciDiv2{
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    width: 1528px;
+    height: 629px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ucuncuDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 1439px;
+    height: 730px;
+}
+.ucuncuDiv2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.personelFoto{
+    width: 400px;
+    height: 400px;
+    
+}
+.dorduncuDiv{
+    display: flex;    
+    background-color: black;
+    width: 1728px;
+    height: 248px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.dorduncuDivH1{
+    color: yellow;
+}
+.dorduncuDivH2{
+    color: white;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.dorduncuDivResponsive{
+    display: flex;
+    width: 864px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.besinciDiv{
+    display: flex;
+    width: 1528px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+}
+.besinciDivForm{
+    display: flex;
+    width: 751px;
+    height: 899px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+.besinciDivH2{
+    text-align: end;
+}
+.besinciDivInputs{
+    height: 100px;
+    padding-left: 30px;
+}
+.besinciDivInputs2{
+    height: 191px;
+    align-items: start;
+    padding-left: 30px;
+}
+.besinciDivButon{
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+@media(max-width:768px){
+    html,
+    body{
+        height: 900%;
+        width: 100%;
+    }
+    .besinciDiv{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin: 0 auto;
+        
+
+    }
+    .besinciDivForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 300px;
+    }
+    .besinciDivImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ucuncuDiv2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dorduncuDiv{
+        display: flex;    
+        background-color: black;
+        width: 864px;
+        height: 248px;
+        align-items: center;
+        margin-left: 300px;
+        justify-content: space-evenly;
+        
+    }
+    .dorduncuDivResponsive{
+        display: flex;
+        width: 864px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+
+}
+
